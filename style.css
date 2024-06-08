@@ -488,6 +488,19 @@ height: 50px;
 flex-shrink: 0;
 margin-left: 24px;
 margin-top: 232px;
+animation: translate 5000ms infinite 1000ms;
+}
+
+@keyframes translate{
+   0%{
+    transform: translateY(0px);
+   } 
+   50%{
+    transform: translateY(-20px);
+   }
+   100%{
+    transform: translateY(0px);
+   }
 }
 
 .blogs-heading{
