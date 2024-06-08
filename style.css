@@ -86,6 +86,19 @@ margin-bottom: 22px;
     height: 71px;
     flex-shrink: 0;
     border-radius: 10px;
+    animation: button-anima 3000ms infinite 1000ms;
+}
+
+@keyframes button-anima{
+0%{
+    transform: scale(1)
+}
+25%{
+    transform: scale(1.15)
+}
+100%{
+    transform: scale(1)
+}
 }
 
 
@@ -203,6 +216,22 @@ border-radius: 12px;
 border: 2px solid #292F36;
 background: #292F36;
 margin-top: 70px;
+animation: wiggle 2000ms infinite 1000ms;
+}
+
+@keyframes wiggle{
+    0%{
+       transform: rotate(-10deg);
+    }
+    25%{
+        transform: rotate(10deg);
+    }
+    75%{
+        transform: rotate(-10deg);
+    }
+  100%{
+    transform: rotate(-10deg);
+  }
 }
 
 .innovation-img{
@@ -288,8 +317,8 @@ letter-spacing: 0.22px;
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin-top: 140px;
-    margin-bottom: 140px;
+    margin-top: 200px;
+    margin-bottom: 160px;
 }
 
 .projects{
@@ -497,6 +526,28 @@ letter-spacing: 0.22px;
     width: 1200px;
 height: 414px;
 flex-shrink: 0;
+animation-name: join-anima;
+animation-duration: 20000ms;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+
+@keyframes join-anima{
+    0% {
+        background-color: rgb(128, 128, 215);
+      }
+    
+      25% {
+        background-color: rgb(141, 122, 87);
+      }
+
+      50%{
+        background-color: rgb(219, 225, 145);
+      }
+    
+      100% {
+        background-color:  rgb(128, 128, 215);
+      }
 }
 
 .join-big{
@@ -542,6 +593,10 @@ border-radius: 20px;
 margin-left: 475px;
 margin-top: 60px;
 z-index: 1;
+}
+
+.join-svg{
+    fill: #E7E7E7;
 }
 
 .footer-div{
