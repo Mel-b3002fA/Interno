@@ -32,6 +32,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px; 
 letter-spacing: 0.4px;
+padding: 10 20;
 }
 
 .header-navigation-item:hover{
@@ -82,10 +83,10 @@ margin-bottom: 22px;
 .landingpage-item-button{
     color: white;
     background-color:#292F36;;
-    width: 207px;
-    height: 71px;
+    width: 200px;
+    height: 70px;
     flex-shrink: 0;
-    border-radius: 10px;
+    border-radius: 20px;
     animation: button-anima 3000ms infinite 1000ms;
 }
 
@@ -202,6 +203,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 36px; 
 letter-spacing: 0.22px;
+/* max-height: 93px; */
 }
 
 .innovative-btn{
@@ -319,6 +321,10 @@ letter-spacing: 0.22px;
     gap: 40px;
     margin-top: 200px;
     margin-bottom: 160px;
+}
+
+.brand-list-item:hover{
+    fill: #CDA274;
 }
 
 .projects{
